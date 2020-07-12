@@ -1,8 +1,35 @@
-layout: page
-title: "The American Terror of Giant African Land Snails"
-permalink: /www.turbobubble.com/GiantAfricanLandSnails
-
-In 1966, a boy brought three giant African land snails into Florida. 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>turbobubble</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">Contact</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>MOLLUSCS OF TERROR: GIANT AFRICAN LAND SNAILS</h1>
+				<p>In 1966, a boy brought three giant African land snails into Florida. 
 His grandmother released them into a garden which resulted in a population explosion of more than 18,000 giant African land snails 7 years later. 
 
-It took 10 years to eradicate them at a cost of $1,000,000.
+It took 10 years to eradicate them at a cost of $1,000,000.</p>
+    		</div><!-- /.blurb -->
+		<div class="blurb">
+		<img src="https://ibb.co/SB7DtTb" width="50%" height="50%">
+		</div>
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href=""></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
+
+
