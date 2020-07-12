@@ -17,6 +17,9 @@
         		<h1>HEADER GOES HERE</h1>
 				<p>TEXT GOES HERE</p>
     		</div><!-- /.blurb -->
+		<div class="blurb">
+		<img src="LINK TO IMAGE" width="50%" height="50%">
+		</div>
 		</div><!-- /.container -->
 		<footer>
     		<ul>
