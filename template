@@ -18,7 +18,9 @@
 				<p>TEXT GOES HERE</p>
     		</div><!-- /.blurb -->
 		<div class="blurb">
+		<br>
 		<img src="LINK TO IMAGE" width="50%" height="50%">
+		<a href="IMAGE SOURCE"> SOURCE </a>
 		</div>
 		</div><!-- /.container -->
 		<footer>
