@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>turbobubble</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">Contact</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    		<div class="blurb">
+        		<h1>Archive</h1>
+# GET /repos/:owner/:repo/contents/articles 
+    		</div><!-- /.blurb -->
+		<div class="blurb">
+		<br>
+		<img src="LINK TO IMAGE" width="50%" height="50%">
+		<a href="IMAGE SOURCE"> SOURCE </a>
+		</div>
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<li><a href=""></a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
