@@ -1,0 +1,11 @@
+<div class="container">
+    		<div class="blurb">
+				<a class="fragment" href="LINK TO POST HERE">
+    <img src ="LINK TO PREVIEW IMAGE" alt="" width="180px height="auto"/> 
+    <h3>TITLE</h3>
+    <p class="text">
+	   DESCRIPTION
+        </p>
+</div>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
