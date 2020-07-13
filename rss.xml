@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-
 <channel>
-  <title>turbobubble</title>
-  <link>https://www.turbobubble.com</link>
-  <description></description>
-  <item>
-    <title>MOLLUSCS OF TERROR</title>
-    <link>/articles/giantafricanlandsnails.html</link>
-    <description></description>
-  </item>
+<title>turbobubble</title>
+<description>turbobubble</description>
+<link>http://www.turbobubble.com</link>
+<category domain="www.turbobubble.com"></category>
+<docs>turbobubble.com/rss.xml</docs>
+<language>en-us</language>
+<item>
+<title>MOLLUSCS OF TERROR</title>
+<description></description>
+<link>http://www.turbobubble.com/articles/giantafricanlandsnails.html</link>
+<pubDate>Tue, 19 Oct 2004 11:09:11 -0400</pubDate>
+</item>
 </channel>
-
 </rss>
