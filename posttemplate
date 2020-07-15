@@ -38,6 +38,13 @@
 			<li><a href="/shop">shop</a></li>
 			<li><a href="/about">about</a></li>
 			<li><a href="/contact">contact</a></li>
+				<li> &copy; Copyright 
+ <script type="text/javascript">
+  var today = new Date()
+  var year = today.getFullYear()
+  document.write(year) 
+					</script> <li>
+				<ul>
 			</ul>
 		</footer>
 			</ul>
