@@ -20,5 +20,14 @@
 <enclosure url="https://i.ibb.co/C8d8Ysm/rc1.jpg"
     length="100" type="image/jpeg" />
 </item>
+    
+    <item>
+<title>Glaucus Atlanticus: The Sea Angel</title>
+<description></description>
+<link>http://www.turbobubble.com/articles/glaucusatlanticus.html</link>
+<enclosure url="https://i.ibb.co/YZ0knTw/nb.jpg"
+    length="100" type="image/jpeg" />
+</item>
+    
 </channel>
 </rss>
