@@ -13,7 +13,7 @@ nav ul, footer ul {
       width:100%;
 }
 nav ul li, footer ul li {
-    display: inline;
+    display: block;
     margin-right: 20px;
         background-color: deepskyblue;
     width:100%;
