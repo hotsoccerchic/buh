@@ -10,13 +10,11 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
         background-color: deepskyblue;
-     overflow: hidden;
 }
 nav ul li, footer ul li {
     display: block;
     margin-right: 20px;
         background-color: deepskyblue;
-    overflow: hidden;
 }
 a {
     text-decoration: none;
