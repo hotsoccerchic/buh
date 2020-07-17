@@ -35,7 +35,6 @@ footer {
     background-color:deepskyblue;
     padding:10px;
     font-size: .8em;
-    position: bottom;
 }
 
 ul.posts { 
@@ -57,4 +56,5 @@ ul.posts li {
 }
 .column{ 
     float: left;
+    overflow: hidden;
 }
