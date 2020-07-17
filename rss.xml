@@ -36,39 +36,17 @@
 <enclosure url="https://i.ibb.co/FDL8BBc/toronto-raccoon.png"
     length="100" type="image/jpeg" />
 </item>
-</channel>
     
-    <?php 
-header("Content-Type: text/xml");
+    <item>
+<title>World Record Beetle Breeding</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/WorldRecordBeetleBreeding.html</link>
+<enclosure url="https://mediaprocessor.websimages.com/fit/1920x1920/8-bitbeetles-com.webs.com/10799665_309468625923328_1145286359_n.jpg"
+    length="100" type="image/jpeg" />
+</item>
+    
+</channel>
+  
 
-if (isset($_GET["rss"])) {
-    $url = $_GET["rss"];
-    randomizeAndDumpRss($url);
-}
-
-function randomizeAndDumpRss($url) {
-    $dom = new DOMDocument;
-    $dom->load($url);
-    $channel = $dom->getElementsByTagName('channel')[0];
-    $items = $channel->getElementsByTagName('item');
-
-    $allitems = array();
-    foreach ($items as $item) {
-        $allitems[] = $item;
-    }
-
-    foreach ($allitems as $item) {
-        $channel->removeChild($item);
-    }
-
-    shuffle($allitems);
-
-    foreach ($allitems as $item) {
-        $channel->appendChild($item);
-    }
-
-    print $dom->saveXML();
-}
-?> 
     
 </rss>
