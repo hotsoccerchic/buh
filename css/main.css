@@ -12,7 +12,7 @@ nav ul, footer ul {
         background-color: deepskyblue;
 }
 nav ul li, footer ul li {
-    display: block;
+    display: inline;
     margin-right: 20px;
         background-color: deepskyblue;
 }
@@ -36,6 +36,9 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
         background-color: deepskyblue;
+}
+img {
+    float: left;
 }
 
 ul.posts { 
