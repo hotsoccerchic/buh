@@ -59,38 +59,16 @@
 </form>
 															
 															
-<script>
-const RSS_URL = `https://codepen.io/picks/feed/`;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+$.get(https://turbolyzer.com/rss.xml, function (data) {
+    $(data).find("item").each(function () { // or "item" or whatever suits your feed
+        var el = $(this);
 
-$.ajax(RSS_URL, {
-  accepts: {
-    xml: "application/rss+xml"
-  },
-
-  dataType: "xml",
-
-  success: function(data) {
-    $(data)
-      .find("item")
-      .each(function() {
-        const el = $(this);
-
-        const template = `
-          <article>
-            <img src="${el.find("link").text()}/image/large.png" alt="">
-            <h2>
-              <a href="${el
-                .find("link")
-                .text()}" target="_blank" rel="noopener">
-                ${el.find("title").text()}
-              </a>
-            </h2>
-          </article>
-        `;
-
-        document.body.insertAdjacentHTML("beforeend", template);
-      });
-  }
+        console.log("------------------------");
+        console.log("title      : " + el.find("title").text());
+        console.log("author     : " + el.find("author").text());
+        console.log("description: " + el.find("description").text());
+    });
 });
 </script>					
 </div>
