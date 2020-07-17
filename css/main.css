@@ -35,7 +35,7 @@ footer {
     background-color:deepskyblue;
     padding:10px;
     font-size: .8em;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
