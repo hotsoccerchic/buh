@@ -33,7 +33,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     background-color:deepskyblue;
-    padding:20px;
+    padding:10px;
     font-size: .8em;
 }
 
@@ -52,5 +52,5 @@ ul.posts li {
 
 .header {
   background: deepskyblue;
-  padding: 20px;
+  padding: 10px;
 }
