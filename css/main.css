@@ -63,3 +63,8 @@ ul.posts li {
 img {
     display:inline-block;
 }
+
+.column {
+    float: left;
+    width: 50%;
+}
