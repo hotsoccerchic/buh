@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: white;
+    background-color: deepskyblue;
     color: black;
 }
 nav ul, footer ul {
@@ -47,7 +47,3 @@ ul.posts li {
 .inline-block {
    display: inline-block;
 }
-.header, .footer {
-  background-color: deepskyblue;
-  color: yellow;
-  padding: 15px;
