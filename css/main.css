@@ -59,3 +59,7 @@ ul.posts li {
 .mc_embed_signup {
     margin:10px;
 }
+
+img {
+    display:inline-block;
+}
