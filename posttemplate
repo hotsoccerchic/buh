@@ -5,9 +5,10 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<script data-ad-client="ca-pub-4937162979898952" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f119c50e12e780012ff5846&product=inline-share-buttons" async="async"></script>
 	</head>
 	<body>
-	<div class="header">
+		<div class="header">
 		<nav>
     		<ul>
         		<li> <img src="https://fontmeme.com/permalink/200716/1edf45f4ad23bf0c446f5c09df0dbbe3.png" alt="pixel-fonts" border="0" height="60%" width="60%"> </li>
@@ -19,17 +20,20 @@
 			<link rel="alternate" type="application/rss+xml" href="https://www.turbolyzer.com/rss.xml" title="turbolyzer">
     		</ul>
 		</nav>
-		</div>
+																     </div>
 		<hr>
 		<div class="container">
     		<div class="blurb">
-        		<h1>HEADER GOES HERE</h1>
-			<img src="LINK TO IMAGE" width="50%" height="50%">
-				<p>TEXT GOES HERE</p>
+        		<h1>HEADER HERE</h1>
+			<div class="column">
+			<img src="IMAGE LINK HERE" width="100%" height="100%">
+				<p>
+				PARAGRAPH TEXT HERE
+				</p>
+				<div class="sharethis-inline-share-buttons"></div>
     		</div><!-- /.blurb -->
 		<div class="blurb">
-		<br>
-		<a href="IMAGE SOURCE"> SOURCE </a>
+			</div>
 		</div>
 		</div><!-- /.container -->
 		<!-- Begin Mailchimp Signup Form -->
@@ -49,7 +53,7 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>																											
 </form>
-        		<footer>
+		<footer>
     		<ul>
         		<li><a href="/">home</a></li>
 			<li><a href="/archive.html">archive</a></li>
@@ -65,8 +69,5 @@
 				<ul>
 			</ul>
 		</footer>
-			</ul>
-		</footer>
 	</body>
 </html>
-
