@@ -47,3 +47,8 @@ ul.posts li {
 .inline-block {
    display: inline-block;
 }
+
+.header {
+  padding: 40px;
+  background: #1abc9c;
+}
