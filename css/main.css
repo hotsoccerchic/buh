@@ -1,19 +1,18 @@
 body {
     margin: 60px auto;
     width: 70%;
-    color: black;
-    background-color: white;
+    background-color: deepskyblue;
+    color: yellow;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-        background-color: deepskyblue;
 }
 nav ul li, footer ul li {
-    display: inline-block;
-        background-color: deepskyblue;
+    display: inline;
+    margin-right: 20px;
 }
 a {
     text-decoration: none;
@@ -34,9 +33,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-        background-color: deepskyblue;
-}
-
 }
 
 ul.posts { 
@@ -50,8 +46,4 @@ ul.posts li {
 
 .inline-block {
    display: inline-block;
-}
-body {
-  margin-top: 1em;
-  margin-bottom: 3em;     
 }
