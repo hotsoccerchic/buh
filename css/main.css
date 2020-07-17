@@ -64,4 +64,5 @@ ul.posts li {
 .column {
     float: left;
     width: 50%;
+    margin-left: 20px;
 }
