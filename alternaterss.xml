@@ -1,0 +1,61 @@
+<rss version="2.0">
+<channel>
+<title>turbolyzer</title>
+<description>turbolyzer</description>
+<link>http://www.turbolyzer.com</link>
+<category domain="www.turbolyzer.com"></category>
+<docs>turbolyzer.com/rss.xml</docs>
+<language>en-us</language>
+
+    <item>
+<title>Glaucus Atlanticus: The Sea Angel</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/glaucusatlanticus.html</link>
+<enclosure url="https://i.ibb.co/YZ0knTw/nb.jpg"
+    length="100" type="image/jpeg" />
+</item>
+    
+    <item>
+<title>Raccoon Family Takes Over House</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/TorontoRaccoon.html</link>
+<enclosure url="https://i.ibb.co/FDL8BBc/toronto-raccoon.png"
+    length="100" type="image/jpeg" />
+</item>
+
+    
+     <item>
+<title>World Record Beetle Breeding</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/WorldRecordBeetleBreeding.html</link>
+<enclosure url="https://mediaprocessor.websimages.com/fit/1920x1920/8-bitbeetles-com.webs.com/10799665_309468625923328_1145286359_n.jpg"
+    length="100" type="image/jpeg" />
+</item>
+
+
+<item>
+<title>MOLLUSCS OF TERROR</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/giantafricanlandsnails.html</link>
+<enclosure url="https://i.ibb.co/sqJpKSn/10496129-325994870909733-248096753266329977-o.jpg"
+    length="100" type="image/jpeg" />
+</item>
+
+
+    <item>
+<title>"Look At The Size of This Raccoon"</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/beckytheobeseraccoon.html</link>
+<enclosure url="https://i.ibb.co/C8d8Ysm/rc1.jpg"
+    length="100" type="image/jpeg" />
+</item>
+    
+
+    
+   
+    
+</channel>
+  
+
+    
+</rss>
