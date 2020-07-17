@@ -1,6 +1,6 @@
 body {
     margin: 30px auto;
-    width: 65%;
+    width: 75%;
     background-color: white;
     color: black;
 }
@@ -63,5 +63,5 @@ ul.posts li {
 
 .column {
     float: left;
-    width: 75%;
+    width: 65%;
 }
