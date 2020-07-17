@@ -73,7 +73,7 @@ ul.posts li {
 .sticky {
   position: fixed;
   top: 0;
-  width: 75%;
+  width: 73.5%;
 }
 
 .sticky + .content {
