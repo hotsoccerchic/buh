@@ -55,8 +55,44 @@
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_92c5a0318201f057146a96a9a_f72e4902dc" tabindex="-1" value=""></div>
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
+    </div>																											
 </form>
+															
+															
+<script>
+	const RSS_URL = `https://turbolyzer.com/rss.xml`;
+
+$.ajax(RSS_URL, {
+  accepts: {
+    xml: "application/rss+xml"
+  },
+
+  dataType: "xml",
+
+  success: function(data) {
+    $(data)
+      .find("item")
+      .each(function() {
+        const el = $(this);
+
+        const template = `
+          <article>
+            <img src="${el.find("link").text()}/image/large.png" alt="">
+            <h2>
+              <a href="${el
+                .find("link")
+                .text()}" target="_blank" rel="noopener">
+                ${el.find("title").text()}
+              </a>
+            </h2>
+          </article>
+        `;
+
+        document.body.insertAdjacentHTML("beforeend", template);
+      });
+  }
+});
+</script>					
 </div>
 
 <!--End mc_embed_signup-->
