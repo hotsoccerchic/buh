@@ -8,7 +8,7 @@
 		<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f119c50e12e780012ff5846&product=inline-share-buttons" async="async"></script>
 	</head>
 	<body>
-		<div class="header">
+		<div class="header" id="myHeader">
 		<nav>
     		<ul>
         		<li> <img src="https://fontmeme.com/permalink/200716/1edf45f4ad23bf0c446f5c09df0dbbe3.png" alt="pixel-fonts" border="0" height="60%" width="60%"> </li>
@@ -21,6 +21,20 @@
     		</ul>
 		</nav>
 		</div> 
+		<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 		<hr>
 		<div class="container">
     		<div class="blurb">
