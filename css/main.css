@@ -54,3 +54,6 @@ ul.posts li {
   background: deepskyblue;
   padding: 10px;
 }
+.column{ 
+    float: left;
+}
