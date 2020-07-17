@@ -1,8 +1,8 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: deepskyblue;
-    color: yellow;
+    background-color: white;
+    color: black;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,3 +47,7 @@ ul.posts li {
 .inline-block {
    display: inline-block;
 }
+.header, .footer {
+  background-color: deepskyblue;
+  color: yellow;
+  padding: 15px;
