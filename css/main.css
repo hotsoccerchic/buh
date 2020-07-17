@@ -38,6 +38,7 @@ footer {
 }
 img {
     float: left;
+    margin-right:5px;
 }
 
 ul.posts { 
