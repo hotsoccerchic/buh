@@ -35,6 +35,8 @@ footer {
     background-color:deepskyblue;
     padding:10px;
     font-size: .8em;
+    position: absolute;
+    bottom: 0;
 }
 
 ul.posts { 
