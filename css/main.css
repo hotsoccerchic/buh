@@ -55,6 +55,6 @@ ul.posts li {
   padding: 10px;
 }
 .column{ 
-    float: left;
-    overflow: hidden;
+  position:absolute
+  left:-30px; 
 }
