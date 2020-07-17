@@ -54,6 +54,8 @@ ul.posts li {
 .header {
   background: deepskyblue;
   padding: 10px;
+  position: fixed;
+  top: 0;
 }
 
 .mc_embed_signup {
