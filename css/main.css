@@ -12,8 +12,7 @@ nav ul, footer ul {
         background-color: deepskyblue;
 }
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline block;
         background-color: deepskyblue;
 }
 a {
