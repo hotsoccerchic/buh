@@ -6,12 +6,12 @@
 <category domain="www.turbolyzer.com"></category>
 <docs>turbolyzer.com/rss.xml</docs>
 <language>en-us</language>
-
-    <item>
-<title>Glaucus Atlanticus: The Sea Angel</title>
+ 
+      <item>
+<title>The Underground World of Beetle Smuggling</title>
 <description></description>
-<link>http://www.turbolyzer.com/articles/glaucusatlanticus.html</link>
-<enclosure url="https://i.ibb.co/YZ0knTw/nb.jpg"
+<link>http://www.turbolyzer.com/articles/beetlesmuggling.html</link>
+<enclosure url="https://mediaprocessor.websimages.com/fit/1920x1920/8-bitbeetles-com.webs.com/kingdom2-2.jpg"
     length="100" type="image/jpeg" />
 </item>
     
@@ -32,6 +32,13 @@
     length="100" type="image/jpeg" />
 </item>
 
+      <item>
+<title>Glaucus Atlanticus: The Sea Angel</title>
+<description></description>
+<link>http://www.turbolyzer.com/articles/glaucusatlanticus.html</link>
+<enclosure url="https://i.ibb.co/YZ0knTw/nb.jpg"
+    length="100" type="image/jpeg" />
+</item>
 
 <item>
 <title>MOLLUSCS OF TERROR</title>
