@@ -3,7 +3,7 @@ body {
     width: 75%;
     background-color: white;
     color: black;
-    font-family: "Tisa";
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
